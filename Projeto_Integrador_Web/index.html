@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">	
+
+  <link rel="icon" href="logo.png" sizes="32x32">
+
+	<title> Reivow </title>
+
+	<style type="text/css">
+		
+		body {
+			background-color: #64B7CC;
+			font-family: "Bahnschrift Condensed";
+		}
+
+		.navbar-expand-lg{
+			font-family: "Bahnschrift Condensed";		
+		}
+
+			footer{
+			background-color: #451537;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+<!--INICIO NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-play ms-4"></span><img src="logo.png" width="40px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="filmes.html">FILMES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="atores.html">ATORES</a>
+      </li>
+    </ul>
+  </div>
+  <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar filmes ou atores" aria-label="Search">
+          <button class="btn btn-outline-secondary me-2" type="submit"><i class="bi bi-search"></i></button>
+
+          <a href="contato.html" class="btn btn-outline-secondary me-2">CADASTRAR</a>
+
+          <a href="login.html" class="btn btn-outline-secondary me-2">LOGIN</a>
+
+          </form>
+</nav>
+<!--FIM NAVBAR-->
+
+<!--INICIO DO CARROSSEL-->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="filmefreira.jpg" class="d-block w-100" alt="A Freira">
+    </div>
+
+    <div class="carousel-item">
+      <img src="filmegrand.jpg" class="d-block w-100" alt="Grand Corrida">
+    </div>
+
+    <div class="carousel-item">
+      <img src="filmemark.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="filmebarbie.jpg" class="d-block w-100" alt="Barbie">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--FIM DO CARROSSEL-->
+
+
+<!-- INICIO ACCORDION-->
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        REIVOW: O QUE É?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+      	O Reivow é uma rede social para quem gosta de filmes e deseja acompanhar, dar notas e organizar os longas e curtas-metragens selecionados em listas. Na plataforma, também é possível escrever e ler resenhas sobre as produções.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        ONDE POSSO ENCONTRAR?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+      Disponível em versão web e para celulares Android e iPhone (iOS), o app para os amantes do cinema também reúne informações diversas sobre os filmes.
+  </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        QUEM SOMOS NÓS?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+      	Somos 2 alunas e amigas do colégio Cotil-Unicamp, que pensamos nessa ideia e aplicamos no nosso projeto integrador(TCC), afim de ser uma rede social aos amantes de tudo o que é relacionado a filmes, e uma plataforma diversa e divertida aos usuários.
+      </div>
+    </div>
+  </div>
+</div>
+<!--FIM ACCORDION-->
+
+<!--INICIO RODAPÉ-->
+    <footer>
+	<div class="container text-center">
+      <div class="row align-items-end">
+    <div class="col">
+      APP PARA OS AMANTES DE CINEMA DISPONÍVEL EM 
+      <a href="https://drive.google.com/drive/folders/1NuVvZdXQrkpYTHgfYwNWSxJkfR4g0SP5?usp=sharing" class="bi bi-apple"></a>
+      <a href="https://drive.google.com/drive/folders/1NuVvZdXQrkpYTHgfYwNWSxJkfR4g0SP5?usp=sharing" class="bi bi-android2"></a>
+    </div>
+    </div>
+</div>
+</footer>
+<!--FIM RODAPÉ-->
+
+
+
+<!-- JAVASCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
